@@ -1,15 +1,10 @@
-# buzzline-01-case
+# buzzline-01-Adeyemi
 
-This project introduces streaming data. 
-The Python language includes generators - we'll use this feature to generate some streaming buzzline messages. 
-As the code runs, it will continuously update log file. 
-We'll use a consumer to modify this log file and alert us when a special message is detected. 
+This project focuses on the implementation of streaming data. We will utilize Python's generators to produce streaming buzzline messages. As the program executes, it will consistently update a log file. 
 
 ## Task 1. Set Up Your Machine
 
-First, you'll need to set up your machine. 
-Detailed instructions by operating system are provided. 
-
+Ensure that your machine is correctly configured. Detailed setup instructions are provided for each operating system.
 1. Install Git.
 2. Install Python **Version 3.11**.
 3. Install VS Code.
@@ -24,8 +19,8 @@ For detailed instructions, see:
 
 ## Python Versions (3.11 for this course)
 
-The most current version of Python is 3.13. 
-This course will use advanced tools (such as Kafka) that still require Python 3.11. 
+The current version of Python is 3.13. 
+This course will use advanced tools Kafka that still require Python 3.11. 
 You are encouraged to install both and practice multiple versions. 
 If space is an issue, we only need 3.11 in this course. 
 For more information, See [PYTHON-VERSIONS.md](docs/PYTHON-VERSIONS.md).
@@ -55,23 +50,16 @@ The instructions are repeated in requirements.txt as this file exists in all our
 
 ## Task 4. Generate Streaming Data (Terminal 1)
 
-Now we'll generate some streaming data. 
-By the way - you've done 90% of the hard work before we even look at code. 
-Congratulations!
-
-In VS Code, open a terminal.
 Use the commands below to activate .venv, and run the generator as a module. 
 To learn more about why we run our Python file as a module, see [PYTHON-PKG-IMPORTS](docs/PYTHON-PKG-IMPORTS.md) 
 
 Windows PowerShell:
 
-```shell
 .venv\Scripts\activate
 py -m producers.basic_producer_case
 ```
 
 Mac/Linux:
-```zsh
 source .venv/bin/activate
 python3 -m producers.basic_producer_case
 ```
@@ -85,16 +73,14 @@ In VS Code, open a NEW terminal in your root project folder.
 Use the commands below to activate .venv, and run the file as a module. 
 
 Windows:
-```shell
 .venv\Scripts\activate
 py -m consumers.basic_consumer_case.py
-```
+
 
 Mac/Linux:
-```zsh
 source .venv/bin/activate
 python3 -m consumers.basic_consumer_case.py
-```
+
 
 ## Save Space
 To save disk space, you can delete the .venv folder when not actively working on this project.
