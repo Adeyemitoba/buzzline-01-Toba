@@ -12,5 +12,5 @@ __pycache__/
 # macOS system files
 .DS_Store
 
-logs/*.log
+echo "logs/project_log.log" >> .gitignore
 
